@@ -4,40 +4,40 @@
 function changeBackground(imageUrl) {
     var container = document.getElementById('container-grid');
     container.style.opacity = '0';
-  
+
     setTimeout(function() {
-      container.style.backgroundImage = "url('" + imageUrl + "')";
-      container.style.opacity = '1';
+        container.style.backgroundImage = "url('" + imageUrl + "')";
+        container.style.opacity = '1';
     }, 100);
-  }
-  
-  var box1 = document.querySelector('.box1');
-  if (box1) { // Check if the element exists
+}
+
+var box1 = document.querySelector('.box1');
+if (box1) {
     box1.addEventListener('mouseover', function() {
-      changeBackground('img/img-1.jpg');
+        changeBackground('https://xtanante.github.io/xtanante/img/img-1.jpg');
     });
-  }
-  
-  var box2 = document.querySelector('.box2');
-  if (box2) {
+}
+
+var box2 = document.querySelector('.box2');
+if (box2) {
     box2.addEventListener('mouseover', function() {
-      changeBackground('img/img-2.jpg');
+        changeBackground('https://xtanante.github.io/xtanante/img/img-2.jpg');
     });
-  }
-  
-  var box3 = document.querySelector('.box3');
-  if (box3) {
+}
+
+var box3 = document.querySelector('.box3');
+if (box3) {
     box3.addEventListener('mouseover', function() {
-      changeBackground('img/img-3.jpg');
+        changeBackground('https://xtanante.github.io/xtanante/img/img-3.jpg');
     });
-  }
-  
-  var box4 = document.querySelector('.box4');
-  if (box4) {
+}
+
+var box4 = document.querySelector('.box4');
+if (box4) {
     box4.addEventListener('mouseover', function() {
-      changeBackground('img/img-4.jpg');
+        changeBackground('https://xtanante.github.io/xtanante/img/img-4.jpg');
     });
-  }
+}
   
   // Menu Toggle
   var menuToggle = document.querySelector('.menu-toggle');
